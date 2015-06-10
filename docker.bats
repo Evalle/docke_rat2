@@ -1,8 +1,6 @@
 #!/usr/bin/env bats
 # You can find BATS here https://github.com/sstephenson/bats
 
-load settings
-
 @test "Check that Docker is running on our system " {
     run sudo systemctl status docker
     [ $status = 0 ]
