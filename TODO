@@ -1,1 +1,1 @@
-Add 'teardown' and 'setup'
+1. add teardow.sh in docker.bats file
