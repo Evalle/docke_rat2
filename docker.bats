@@ -3,10 +3,6 @@
 
 load settings
 
-setup() {
-    sudo systemctl start docker
-}
-
 @test "Check that Docker is running on our system " {
     run sudo systemctl status docker
     [ $status = 0 ]
