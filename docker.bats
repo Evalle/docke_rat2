@@ -26,7 +26,7 @@
     [ $status = 0 ]
 }
 
-# Skip because you need to know exactly version of Docker. Comment a line below to run this test after you change settings.bash with exactly version of Docker
+# Skip because you need to know exactly version of Docker. 
 @test "Check docker version" {
     skip "You need to know exactly version of Docker - you can change it in settings.bash"
     run docker --version 
